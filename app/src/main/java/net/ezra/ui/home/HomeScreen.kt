@@ -33,6 +33,7 @@ import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.rounded.ArrowForward
 import androidx.compose.material.icons.rounded.Menu
+import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material.icons.rounded.ShoppingCart
 import androidx.compose.material3.BottomAppBarDefaults
 import androidx.compose.material3.Button
@@ -160,6 +161,20 @@ Spacer(modifier = Modifier.height(15.dp))
                     modifier = Modifier.size(35.dp),
 
                 )
+
+
+Spacer(modifier = Modifier.width(285.dp))
+
+
+
+
+
+                Icon(
+                    Icons.Rounded.Share,
+                    contentDescription = stringResource(id = R.string.shopping_cart_content_desc),
+                    modifier = Modifier.size(35.dp),
+
+                    )
 
 
 
